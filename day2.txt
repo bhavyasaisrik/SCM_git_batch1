@@ -1,0 +1,25 @@
+Source Code managemnet using Git and Github
+  ----------------------------------------
+  Undoing the commits :
+  --------------------
+	  Delete the latest commit 
+		git reset HEAD^ : it will delete the commit messages and SHA's only 
+		but not the project files 
+		git reset --hard HEAD^: it will delete the commit message as well as files also
+	  Delete number of commits 
+		git reset --hard HEAD~number
+	  Delete specific commits
+		in 3 ways 
+		1 way: git revert SHA-key : it keeps the history and delete the files
+		2 way: git rebase --i SHA-key(one or two commits before)
+		3 way: git rebase --onto branch_name~number_to_delete
+								branch_name~number_to_keep barnch 
+  Remote repository
+	  clone any public repository (Download)
+		git clone URl 
+		git clone URL name_as_you_like
+		git rev-list HEAD --count : to get the total number of commits
+		git log --since="date"
+		git log --since="data" --until="date"
+	  create github account
+	  

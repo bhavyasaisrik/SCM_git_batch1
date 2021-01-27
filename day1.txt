@@ -1,0 +1,77 @@
+Source code management using Git & GitHub
+-----------------------------------------
+For linux users:
+	sudo apt-get install git
+	mkdir 
+	ls
+	cd 
+	touch 
+	cat 
+	rm
+Git - version control software
+github - cloud 
+gitbash gitGui - user interface
+
+Git initializing : git init
+
+commit is used to save our project with a message at particular position
+	git commit -m "file created"
+to commit our changes we need to do some steps 
+	- send untrackd files to staging area (tracked)
+	- from staging area to commit 
+
+adding files to staging area:
+	git add . : all type of file 
+	git add file_name.file_type
+	git add *.file_type
+	git add file2.txt file3.txt index.html 
+
+to get files back to untracked area 
+	git rm --cached filename.type
+
+to get all commits details 
+	git log
+	git log --oneline : it will return single line commit details
+	git log --oneline -n 5
+	git log -n 8
+
+to change our project code to older version 
+	git checkout 7char_SHA_key
+	 Ex: git checkout ff88bd8
+	 
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+  git congig user.email "your@mail"
+  git config user.name "name"
+  
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lalit@DESKTOP-E3ICP1R.(none)')
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+
+
+
+
+	 
+	 
+	 
+	 
+	 
